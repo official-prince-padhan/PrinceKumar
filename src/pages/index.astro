@@ -1,0 +1,38 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- profile2.webp you can remove | Photo <a href="https://unsplash.com/es/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> en <a href="https://unsplash.com/es/fotos/hombre-con-gorro-negro-kVg2DQTAK7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="Prince Kumar"
+	  position="Java  Developer"
+	  aboutMe={`An enthusiastic and detail-oriented Java Full Stack Developer with over 2 years of professional experience in developing and deploying full-stack applications. Adept at both front-end and back-end technologies, with expertise in building scalable, secure, and user-friendly applications. Proficient in modern Java frameworks and technologies like Spring Boot, Hibernate, RESTful APIs, and Microservices on the back end, as well as HTML5, CSS3, JavaScript, Angular, and React on the front end. Key Skills:
+Backend: Java, Spring Boot, Hibernate, REST APIs, Microservices, JPA
+Frontend: HTML5, CSS3, JavaScript, ReactJS, Angular, Bootstrap
+Databases: MySQL, PostgreSQL, MongoDB
+Version Control: Git, GitHub
+DevOps & CI/CD: Jenkins, Docker, AWS
+Agile & Collaboration Tools: Jira, Confluence, Scrum methodologies
+Testing: JUnit, Selenium, Postman`}
+	  linkedin="https://www.linkedin.com/in/princepadhan"
+	  github="https://github.com/official-prince-padhan"
+	  cvLink="/files/resume-cv.pdf"
+	  profileImage="/images/profile2.jpeg"
+	/>
+</BaseLayout>
+
+<!--
+	"An enthusiastic and detail-oriented Java Full Stack Developer with over 2 years of professional experience in developing and deploying full-stack applications. Adept at both front-end and back-end technologies, with expertise in building scalable, secure, and user-friendly applications. Proficient in modern Java frameworks and technologies like Spring Boot, Hibernate, RESTful APIs, and Microservices on the back end, as well as HTML5, CSS3, JavaScript, Angular, and React on the front end.
+
+
+	Here is my GitHub {https://github.com/official-prince-padhan}. You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
+
+	Have a great day!"
+ -->
